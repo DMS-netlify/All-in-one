@@ -1,1 +1,1 @@
-Hello i made this and i hope this works for you but this dosent use actual code it just iframes the site so its probally not gonna work for most of you and if any of the people that made these proxy website dont want there website to be here then just send me an issue
+Hello i made this and i hope this works for you but this dosent use actual code it just iframes the site so its probally not gonna work for most of you and if any of the people that made these proxy website dont want there website to be here then just send me an issue 
