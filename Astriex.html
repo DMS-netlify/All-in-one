@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    iframe {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <iframe src="https://subtojustnagol.vercel.app"></iframe>
+
+</body>
+</html>
+
+<div id="admin-banner" class="admin-warning-bar">
+    <span>Please note, i do not claim this site i only made this for personal use if any of the owners of these proxys dont want their site to be uploaded here then just put a issue on github.</span>
+    <button onclick="closeBanner()" class="close-btn">&times;</button>
+</div>
+
+
+<style>
+.admin-warning-bar {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    z-index: 1000000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ffeeba;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 15px;
+    color: #856404;
+}
+
+body { padding-top: 50px; } 
+</style>
+<script>
+function closeBanner() {
+    var banner = document.getElementById('admin-banner');
+    if (banner) {
+        banner.style.display = 'none';
+        document.body.style.paddingTop = '0px'; // Removes the gap at the top
+    }
+}
+</script>
